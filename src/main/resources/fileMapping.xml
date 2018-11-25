@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileMapping>
+    <targentModels name="transaction" type="csv">
+        <columns generator="default" length="10" name="name1" type="string"/>
+        <columns generator="default" length="20" name="name2" type="int"/>
+    </targentModels>
+    <targentModels name="account" type="flat">
+        <columns generator="default" length="10" name="name1" type="string"/>
+        <columns generator="default" length="20" name="name2" type="int"/>
+    </targentModels>
+</fileMapping>
